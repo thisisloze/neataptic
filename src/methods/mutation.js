@@ -34,21 +34,21 @@ var mutation = {
     name: 'MOD_ACTIVATION',
     mutateOutput: true,
     allowed: [
-      activation.LOGISTIC,
+      //activation.LOGISTIC,
       activation.TANH,
-      activation.RELU,
-      activation.IDENTITY,
-      activation.STEP,
+      //activation.RELU,
+      //activation.IDENTITY,
+      //activation.STEP,
       activation.SOFTSIGN,
       activation.SINUSOID,
-      activation.GAUSSIAN,
-      activation.BENT_IDENTITY,
-      activation.BIPOLAR,
+      //activation.GAUSSIAN,
+      //activation.BENT_IDENTITY,
+      //activation.BIPOLAR,
       activation.BIPOLAR_SIGMOID,
-      activation.HARD_TANH,
-      activation.ABSOLUTE,
-      activation.INVERSE,
-      activation.SELU
+      activation.HARD_TANH
+      //activation.ABSOLUTE,
+      //activation.INVERSE,
+      //activation.SELU
     ]
   },
   ADD_SELF_CONN: {
